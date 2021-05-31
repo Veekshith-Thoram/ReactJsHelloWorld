@@ -11,12 +11,14 @@ import EventBinder from './components/EventBinder';
 import ChildComponent from './components/ChildComponent';
 import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
+import NameList from './components/NameList';
 class App extends React.Component {
   
   render(){
   return (
     <div className="App">
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <NameList />
       {/* <Message />
       <Counter />
       <FunctionCLick />
