@@ -1,15 +1,16 @@
 //import logo from './logo.svg';
 import './App.css';
-import {Welcome} from "./components/Welcome";
+import Welcome from "./components/Welcome";
 import Greet from "./components/Greet";
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Veekshith"/>
-      <Greet name="Pawan Kalyan" />
+      <Greet name="Veekshith"><p>Hello This is a test paragraph</p></Greet>
+      <Greet name="Pawan Kalyan">He is the power star to the world!!</Greet>
 
-      <Welcome />
+      <Welcome name="Chiranjeevi"><p>He is the megastar!!</p></Welcome>
+      <Welcome name="Venkatesh"/>
     </div>
   );
 }
