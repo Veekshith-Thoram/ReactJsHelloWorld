@@ -10,18 +10,20 @@ import ClassClick from './components/ClassClick';
 import EventBinder from './components/EventBinder';
 import ChildComponent from './components/ChildComponent';
 import ParentComponent from './components/ParentComponent';
+import ConditionalRendering from './components/ConditionalRendering';
 class App extends React.Component {
   
   render(){
   return (
     <div className="App">
+      <ConditionalRendering />
       {/* <Message />
       <Counter />
       <FunctionCLick />
       <ClassClick />
        */}
       {/* <ChildComponent /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
        {/* <EventBinder /> */}
       {/* <Greet name="Veekshith"><p>Hello This is a test paragraph</p></Greet>
       <Greet name="Pawan Kalyan">He is the power star to the world!!</Greet>
