@@ -8,6 +8,8 @@ import Counter from "./components/Counter";
 import FunctionCLick from "./components/FunctionCLick";
 import ClassClick from './components/ClassClick';
 import EventBinder from './components/EventBinder';
+import ChildComponent from './components/ChildComponent';
+import ParentComponent from './components/ParentComponent';
 class App extends React.Component {
   
   render(){
@@ -18,8 +20,9 @@ class App extends React.Component {
       <FunctionCLick />
       <ClassClick />
        */}
-
-       <EventBinder />
+      {/* <ChildComponent /> */}
+      <ParentComponent />
+       {/* <EventBinder /> */}
       {/* <Greet name="Veekshith"><p>Hello This is a test paragraph</p></Greet>
       <Greet name="Pawan Kalyan">He is the power star to the world!!</Greet>
 
