@@ -1,6 +1,22 @@
 import React from 'react'
-let nameArray = ["Veekshith", "Pushpa", "Latha"]
-const nameData = nameArray.map(name => <h2>{name}</h2>)
+import PersonList from './PersonList'
+let nameArray = [
+    {
+        name: "Veekshith",
+        language: "Rust",
+        skill: 5
+    }, 
+    {
+        name: "Pushpa",
+        language: "Angular",
+        skill: 7
+    }, 
+    {
+        name: "Latha",
+        language: "Python",
+        skill: 3
+    }]
+const nameData = nameArray.map(person => <PersonList key={person.skill} person={person} />)
 function NameList() {
     return (
         <div>

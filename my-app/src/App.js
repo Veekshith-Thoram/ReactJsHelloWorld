@@ -12,13 +12,17 @@ import ChildComponent from './components/ChildComponent';
 import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
 class App extends React.Component {
   
   render(){
   return (
     <div className="App">
+      <Inline />
+      {/* <Stylesheet primary={false}/> */}
       {/* <ConditionalRendering /> */}
-      <NameList />
+      {/* <NameList /> */}
       {/* <Message />
       <Counter />
       <FunctionCLick />
