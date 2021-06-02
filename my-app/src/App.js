@@ -14,12 +14,14 @@ import ConditionalRendering from './components/ConditionalRendering';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
+import Forms from './components/Forms';
 class App extends React.Component {
   
   render(){
   return (
     <div className="App">
-      <Inline />
+      <Forms />
+      {/* <Inline /> */}
       {/* <Stylesheet primary={false}/> */}
       {/* <ConditionalRendering /> */}
       {/* <NameList /> */}
